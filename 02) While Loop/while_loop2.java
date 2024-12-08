@@ -11,7 +11,7 @@ class while_loop2{
         while(counter <= 6 && counter != -1)
 
         {
-            System.out.println("Enter degree for first" +"("+counter+")");
+            System.out.println("Enter degree for S" +"("+counter+")");
             degree = pop.nextInt();
             sum += degree ;
             counter++;
