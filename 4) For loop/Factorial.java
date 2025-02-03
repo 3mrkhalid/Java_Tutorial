@@ -1,11 +1,10 @@
-package Forloop; // Define the package name
 import java.util.Scanner; // Import the Scanner class to enable user input
 
 // Define a class for calculating factorials
 class Factorial {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); // Create a Scanner object for user input
-        int factorial = 1, counter, sum = 0, number, j = 1, num; // Initialize variables
+        int factorial = 1, number, j = 1, num; // Initialize variables
 
         // Prompt the user for the number of factorials they want to calculate
         System.out.println("How Many Factorial You Want:");
